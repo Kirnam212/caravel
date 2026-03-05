@@ -19,7 +19,7 @@ class PictureController extends Controller
             ->limit(6)
             ->get();
 
-        $interestingPictures = Picture::inRandomOrder()
+        $interestingPictures = Picture::orderByDesc('created_at')
             ->limit(4)
             ->get();
 

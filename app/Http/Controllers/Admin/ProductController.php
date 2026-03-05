@@ -10,7 +10,8 @@ use App\Models\User;
 class ProductController extends Controller
 {
     public function index(){
-        return view('admin.products.index');
+        $pictures = Picture::all();
+        return view('admin.products.index', compact('pictures'));
     }
     public function create(){
         return view('admin.products.create');
