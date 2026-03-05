@@ -1,0 +1,17 @@
+.btn-reset {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 15px;
+    background: #f5f5f5;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.btn-inline {
+    width: auto;
+    display: inline-block;
+}

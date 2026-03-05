@@ -1,11 +1,42 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+/* Черно-белый стиль для аутентификации */
+@layer components {
+    .bg-gray-50 {
+        background-color: #ffffff !important;
+    }
+    
+    .text-gray-600 {
+        color: #000000 !important;
+    }
+    
+    .text-gray-900 {
+        color: #000000 !important;
+    }
+    
+    .border-gray-300 {
+        border-color: #000000 !important;
+    }
+    
+    .bg-indigo-600 {
+        background-color: #000000 !important;
+    }
+    
+    .hover\:bg-indigo-700:hover {
+        background-color: #333333 !important;
+    }
+    
+    .focus\:ring-indigo-500:focus {
+        --tw-ring-color: #000000 !important;
+    }
+    
+    .text-indigo-600 {
+        color: #000000 !important;
+    }
+    
+    .hover\:text-gray-900:hover {
+        color: #000000 !important;
+    }
 }
