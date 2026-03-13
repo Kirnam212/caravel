@@ -43,5 +43,5 @@ class PictureController extends Controller
         return view('pictures.show', compact('picture', 'isFavorite'));
     }
 
-    // Остальные методы оставляем без изменений
+    
 }

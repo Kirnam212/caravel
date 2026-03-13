@@ -15,7 +15,7 @@ class UserController extends Controller
         return view('admin.users.index', compact('users'));
     }
 
-    public function toggleAdmin(User $user): RedirectResponse
+    public function toggleAdmin(User $user)
     {
         $user->is_admin = ! $user->is_admin;
         $user->save();
@@ -23,7 +23,7 @@ class UserController extends Controller
         return back()->with('success', 'Статус администратора обновлён.');
     }
 
-    public function destroy(User $user): RedirectResponse
+    public function destroy(User $user)
     {
         $user->delete();
 

@@ -24,8 +24,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            // Для SQLite откат оставляем пустым, так как dropColumn
-            // требует дополнительной поддержки (doctrine/dbal).
+            
         });
     }
 };

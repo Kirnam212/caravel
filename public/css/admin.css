@@ -1,6 +1,4 @@
-/* =========================
-   ADMIN PANEL
-========================= */
+
 
 .admin-header {
     margin-bottom: 50px;
@@ -17,7 +15,7 @@
     margin-top: 20px;
 }
 
-/* Таблица */
+/* таблица что бы мненять значнени в ьд */
 .admin-table {
     width: 100%;
     border-collapse: collapse;
@@ -44,7 +42,7 @@
     background: #f9f9f9;
 }
 
-/* Кнопки действий */
+/* кнопопчки действий  */
 .admin-actions-inline {
     display: flex;
     gap: 10px;
@@ -77,7 +75,7 @@
     color: #000000;
 }
 
-/* Форма админки */
+/* форма для админки */
 .admin-form {
     max-width: 600px;
     margin-top: 40px;
@@ -114,7 +112,7 @@
     box-shadow: 5px 5px 0px #000000;
 }
 
-/* Карточка просмотра */
+/* делательная карточка */
 .admin-show {
     border: 2px solid #000000;
     padding: 40px;
@@ -153,7 +151,7 @@
     font-weight:700;
 }
 
-/* КРУГ */
+/* круг для  usera ну там он есть */
 
 .admin-stats{
     text-align:center;
@@ -178,7 +176,7 @@
     color:#666;
 }
 
-/* GRID */
+/* сетка для карточек */
 
 .admin-grid{
     display:grid;

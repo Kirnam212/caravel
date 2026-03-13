@@ -26,7 +26,7 @@ return new class extends Migration
             $table->integer('views_count')->default(0);
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->timestamps();
-            $table->softDeletes();
+            
         });
     }
 
